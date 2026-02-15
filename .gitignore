@@ -48,3 +48,15 @@ outputs/*.h5
 
 # Optional: PDF output
 *.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Data (keep data out of repo)
+data/
+**/data/
+
+# Optional: generated outputs (if you re-generate them)
+outputs/
+**/outputs/

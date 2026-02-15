@@ -1,39 +1,50 @@
-# Python
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python cache
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-.venv/
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.env
+.venv
 env/
 venv/
+envs/
+*.conda
+*.egg-info/
 
-# OS/editor
+# OS
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
 
-# LaTeX build junk (Overleaf also generates these)
+# Data (usually don't commit)
+data/raw/
+data/processed/
+
+# Big/generated outputs (keep tex macros if you want)
+outputs/figures/
+outputs/tables/
+outputs/*.csv
+outputs/*.parquet
+outputs/*.h5
+
+# LaTeX build junk
 *.aux
-*.bbl
-*.blg
 *.log
 *.out
 *.toc
-*.lof
-*.lot
-*.fls
-*.fdb_latexmk
 *.synctex.gz
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
 
-# Big data / derived heavy outputs (adjust to your project!)
-data/raw/
-data/processed/
-outputs/tables/
-outputs/figures/
-*.h5
-*.fits
-*.npy
-*.npz
-
-# If you want to keep ONLY TeX macros & a few key figures, do NOT ignore outputs/tex/
-# outputs/tex/   <-- keep this tracked
+# Optional: PDF output
+*.pdf

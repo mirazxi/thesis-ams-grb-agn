@@ -3,8 +3,8 @@ title: "thesis-ams-grb-agn"
 message: "If you use this code, please cite it."
 type: software
 authors:
-  - given-names: "Miraz MD"
-    family-names: "Mizanur Rahman"
+  - given-names: "MD Mizanur Rahman"
+    family-names: "Miraz"
     email: "mirazxiyuan@qq.com"
 repository-code: "https://github.com/mirazxi/thesis-ams-grb-agn"
 license: MIT

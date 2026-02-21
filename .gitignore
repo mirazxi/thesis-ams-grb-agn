@@ -64,3 +64,10 @@ outputs/
 # Jupyter
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+# keep outputs ignored by default
+outputs/
+
+# but track TeX macro outputs
+!outputs/tex/
+!outputs/tex/*.tex
+

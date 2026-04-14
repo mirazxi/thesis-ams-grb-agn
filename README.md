@@ -1,4 +1,4 @@
-# thesis-ams-grb-agn
+# Ams-grb-agn
 
 Code + analysis for thesis figures/tables (AMS-02 / GRB / AGN).
 

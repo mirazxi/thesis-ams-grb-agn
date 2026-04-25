@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this repository, please cite the associated manuscript and archived software release."
 title: "Reproducible Catalogue-Level Time-Domain Benchmarks in High-Energy Astrophysics"
 authors:
-  - family-names: "Rahman"
-    given-names: "Miraz MD Mizanur"
+  - family-names: "Miraz"
+    given-names: "MD Mizanur Rahman"
 repository-code: "https://github.com/mirazxi/thesis-ams-grb-agn"
 license: "MIT"
 version: "1.1.1"
